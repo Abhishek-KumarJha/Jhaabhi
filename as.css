@@ -1,0 +1,82 @@
+/* Reset and general styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Banner styles */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    font-style: italic;
+    font-size: x-large;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 10px solid #e2cfa6; /* Decorative gold border */
+    color: rgb(104, 52, 52);
+}
+
+/* Dark overlay for text readability */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Transparent black overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Logo styles */
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Content styles */
+.content {
+    text-align: center;
+    max-width: 800px;
+}
+
+.content h1 {
+    font-size: 4rem; /* Increased for prominence */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #f7c04a; /* Eye-catching gold color */
+}
+
+.content p {
+    font-size: 1.5rem; /* Increased for readability */
+    font-weight: 300; /* Light weight for elegance */
+    line-height: 1.8;
+    color: #e0e0e0; /* Slightly lighter than white for contrast */
+}
+
+/* Contact section styles */
+.contact {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+.contact p {
+    margin: 0;
+    font-weight: bold;
+    color: #f7c04a; /* Gold color for visibility */
+}
